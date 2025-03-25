@@ -4,9 +4,8 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
   },
-  experimental: {
-    appDir: true,
-  },
+  output: 'export',
+  distDir: 'public'
 }
 
 module.exports = nextConfig 
